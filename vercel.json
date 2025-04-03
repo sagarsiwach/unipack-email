@@ -5,9 +5,8 @@
         "use": "@vercel/next",
         "config": {
           "installCommand": "npm install --legacy-peer-deps",
-          "buildCommand": "email build"
+          "buildCommand": "npx email build && cp -r .react-email/.next .next"
         }
       }
-    ],
-    "outputDirectory": ".react-email/.next"
+    ]
   }

@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "private": true,
   "scripts": {
-    "build": "email build",
+    "build": "email build && cp -r .react-email/.next .next",
     "dev": "email dev",
     "export": "email export"
   },
