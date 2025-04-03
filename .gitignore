@@ -1,0 +1,13 @@
+# Ignore Next.js build artifacts
+.react-email/.next/
+.next/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
