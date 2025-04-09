@@ -1,9 +1,9 @@
 {
-  "name": "unipack-email",
+  "name": "react-email-starter",
   "version": "1.0.3",
   "private": true,
   "scripts": {
-    "build": "email build && cp -r .react-email/.next .next",
+    "build": "email build",
     "dev": "email dev",
     "export": "email export"
   },
@@ -15,7 +15,6 @@
   "devDependencies": {
     "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
-    "next": "*",
     "react-email": "4.0.3"
   }
 }
